@@ -1,5 +1,13 @@
 #slider1 {
-  height: 520px;
+  height: 550px;
   width: 100%;
   object-fit: none;
+}
+
+hr#sliderHr {
+  width: 33%;
+  border: solid #ad2428 2px;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

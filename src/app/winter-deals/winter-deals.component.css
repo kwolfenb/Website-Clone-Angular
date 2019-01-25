@@ -35,3 +35,11 @@
   margin-right: auto;
   padding-top: 4px;
 }
+
+hr#winterHr {
+  width: 33%;
+  border: solid #ad2428 2px;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
