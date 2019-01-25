@@ -69,3 +69,25 @@
   font-size: 14px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 10%;
+}
+
+#dropdownMen, #dropdownWomen {
+  display: block;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 12px 16px;
+}
+
+#dropdownMen li, #dropdownWomen li {
+  font-weight: lighter;
+  list-style-type: none;
+  color: black;
+  margin-left: 0px;
+}
