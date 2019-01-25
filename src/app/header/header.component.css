@@ -5,7 +5,18 @@
 }
 
 .banner img {
-  margin-left: 15%;
+  width: 995px;
+  margin-left: auto;
   margin-right: auto;
   height: auto;
+  display: block;
+}
+
+#tableMenuButtons {
+  table-layout: auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 14px;
 }
