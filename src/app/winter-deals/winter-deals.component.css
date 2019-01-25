@@ -1,0 +1,36 @@
+#winterDealsHeader {
+  margin-top: 50px;
+  text-align: center;
+}
+#winterDealsHeader h2, #winterSaleText {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+#winterSale img {
+  height: 600px;
+  object-fit: none;
+  max-width: 100%;
+}
+
+.grid-container {
+  display: inline-grid;
+}
+
+.leftBox, .rightBox {
+  width: 30%;
+  height: 40px;
+  border: solid black 3px;
+}
+
+.leftBox {
+  margin-right: 4px;
+  margin-left: auto;
+  padding-top: 4px;
+}
+.rightBox {
+  margin-left: 4px;
+  margin-right: auto;
+  padding-top: 4px;
+}
