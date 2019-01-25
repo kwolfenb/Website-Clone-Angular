@@ -7,17 +7,14 @@ import { Component, Input, Output, EventEmitter  } from '@angular/core';
 })
 export class HeaderComponent {
 
+  @Input() menuArr;
   @Input() productList;
+  @Input() mouseover;
 
-  mouseover = false;
+  @Output() mouseOverAction = new EventEmitter();
 
-  menuArr: string[] = [
-    'MEN', 'WOMEN', 'OUTERWEAR', 'SHOES', 'HOME', 'GEAR', 'SALE', 'CLEARANCE', 'GUIDE TO EB'
-  ]
-
-  onMouseOver(button) {
-    this.mouseover=button;
-    console.log(this.mouseover);
+  onMouseOver(menuButton) {
+    this.mouseOverAction.emit(menuButton);
   }
 
   onMouseOut() {
