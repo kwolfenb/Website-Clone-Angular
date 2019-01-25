@@ -1,0 +1,19 @@
+#socialMediaHeader {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#socialMediaImg img {
+  height: 400px;
+  max-width: 110%;
+  object-fit: none;
+  margin-bottom: 200px;
+}
+
+#pinterest {
+  float: right;
+  max-width: 100%;
+}

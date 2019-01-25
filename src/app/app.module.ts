@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { WinterDealsComponent } from './winter-deals/winter-deals.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { WinterDealsComponent } from './winter-deals/winter-deals.component';
     AppComponent,
     HeaderComponent,
     SliderComponent,
-    WinterDealsComponent
+    WinterDealsComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule
