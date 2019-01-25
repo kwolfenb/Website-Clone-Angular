@@ -1,11 +1,10 @@
-<div class="header">
+<div class="header" (click)="onMouseOut()">
   <div class="banner">
     <img src="../assets/img/header.png" id="headerImg" alt="banner">
   </div>
   <div class="menu">
     <div class="row" id="menuRowOne">
       <div class="col-3">
-
         <img src="../assets/img/logo.png" alt="logo" id="logo">
       </div>
       <div class="col-4">
@@ -22,12 +21,11 @@
     <table id="tableMenuButtons">
       <tr>
         <div class="dropdown">
-          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)" (mouseout)="onMouseOut()">{{menuButton}}
-
+          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)">{{menuButton}}
             <div *ngIf="mouseover==menuButton" class="dropdownContent">
               <p>Shop by Category</p>
               <ul *ngFor="let product of productList">
-                <li><a href="#">{{productList}}</a></li>
+                <li><a href="#">{{product}}</a></li>
               </ul>
             </div>
           </td>

@@ -12,4 +12,5 @@ export class AppComponent {
     'Outerwear', 'Fleece', 'Pants', 'Flannel', 'T-shirts', 'Shirts', 'Jeans', 'Shorts', 'Blazers and Jackets', 'Sweatshirts and Hoodies', 'Sweaters', 'Sleepwear', 'Baselayers', 'Shoes', 'Accessories'
   ]
 
+
 }
