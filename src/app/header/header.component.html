@@ -19,119 +19,22 @@
         <img src="../assets/img/bag.png" alt="shoppingBag" id="bag">
       </div>
     </div>
-    <div id="menuButtons">
-      <table id="tableMenuButtons">
-        <tr>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">MEN
-              <div *ngIf="mouseover" id="dropdownMen">
-                <p>Shop by Category</p>
-                <ul>
+    <table id="tableMenuButtons">
+      <tr>
+        <div class="dropdown">
+          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)" (mouseout)="onMouseOut()">{{menuButton}}
+
+            <div *ngIf="mouseover==menuButton" (class)="menuButton">
+              <p>Shop by Category</p>
+              <ul>
                 <li><a href="#">Link 1</a></li>
                 <li><a href="#">Link 1</a></li>
                 <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">WOMEN
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">OUTERWEAR
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">SHOES
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">HOME
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">BAGS & GEAR
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">SALE
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">CLEARANCE
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-          <div class="dropdown">
-            <td (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">GUIDE TO EB
-              <div *ngIf="mouseover" id="dropdownWomen">
-                <p>Shop by Category</p>
-                <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                </ul>
-              </div>
-            </td>
-          </div>
-        </tr>
-      </table>
-    </div>
+              </ul>
+            </div>
+          </td>
+        </div>
+      </tr>
+    </table>
   </div>
 </div>

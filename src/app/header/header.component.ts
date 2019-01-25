@@ -9,8 +9,12 @@ export class HeaderComponent {
 
   mouseover = false;
 
-  onMouseOver() {
-    this.mouseover=true;
+  menuArr: string[] = [
+    'MEN', 'WOMEN', 'OUTERWEAR', 'SHOES', 'HOME', 'GEAR', 'SALE', 'CLEARANCE', 'GUIDE TO EB'
+  ]
+
+  onMouseOver(button) {
+    this.mouseover=button;
     console.log(this.mouseover);
   }
 

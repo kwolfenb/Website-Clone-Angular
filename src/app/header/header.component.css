@@ -18,6 +18,7 @@
   margin-right: auto;
 }
 
+
 #menuRowOne {
   height: 60px;
   width: 80%;
@@ -59,35 +60,16 @@
 
 }
 
-
 #tableMenuButtons {
+  text-align: center;
   table-layout: auto;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   font-weight: bold;
-  font-size: 14px;
+  margin-left: 12%;
+  margin-right: auto;
+  padding: auto;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+#tableMenuButtons td {
   width: 10%;
-}
-
-#dropdownMen, #dropdownWomen {
-  display: block;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  padding: 12px 16px;
-}
-
-#dropdownMen li, #dropdownWomen li {
-  font-weight: lighter;
-  list-style-type: none;
-  color: black;
-  margin-left: 0px;
 }
