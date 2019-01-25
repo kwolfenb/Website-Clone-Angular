@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { WinterDealsComponent } from './winter-deals/winter-deals.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
+import { ProductsComponent } from './products/products.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SocialMediaComponent } from './social-media/social-media.component';
     HeaderComponent,
     SliderComponent,
     WinterDealsComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule

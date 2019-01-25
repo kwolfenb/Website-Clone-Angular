@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  masterProductCategories = [
+    'Outerwear', 'Fleece', 'Pants', 'Flannel', 'T-shirts', 'Shirts', 'Jeans', 'Shorts', 'Blazers and Jackets', 'Sweatshirts and Hoodies', 'Sweaters', 'Sleepwear', 'Baselayers', 'Shoes', 'Accessories'
+  ]
+
 }

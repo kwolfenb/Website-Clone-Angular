@@ -24,12 +24,10 @@
         <div class="dropdown">
           <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)" (mouseout)="onMouseOut()">{{menuButton}}
 
-            <div *ngIf="mouseover==menuButton" (class)="menuButton">
+            <div *ngIf="mouseover==menuButton" class="dropdownContent">
               <p>Shop by Category</p>
-              <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
+              <ul *ngFor="let product of productList">
+                <li><a href="#">{{productList}}</a></li>
               </ul>
             </div>
           </td>
