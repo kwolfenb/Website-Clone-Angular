@@ -21,10 +21,10 @@
     <table id="tableMenuButtons">
       <tr>
         <div class="dropdown">
-          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)">{{menuButton}}
+          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)">{{menuButton[0]}}
             <div *ngIf="mouseover==menuButton" class="dropdownContent">
               <p>Shop by Category</p>
-              <ul *ngFor="let product of productList">
+              <ul *ngFor="let product of menuButton[1]">
                 <li><a href="#">{{product}}</a></li>
               </ul>
             </div>

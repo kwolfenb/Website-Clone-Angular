@@ -21,10 +21,10 @@
 
 #menuRowOne {
   height: 60px;
-  width: 80%;
+  width: 90%;
   margin-top: 5px;
-  margin-left: 100px;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #logo {
@@ -65,8 +65,8 @@
   table-layout: auto;
   width: 100%;
   font-weight: bold;
-  margin-left: 80px;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: auto;
 }
 
