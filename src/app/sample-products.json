@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": 0,
       "title": "Mens Mountain Town Jacket",
       "category": "Mens Jacket",
       "oPrice": 149,
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "id": 1,
       "title": "Mens Lone Peak 3-In-1 Jacket",
       "category": "Mens Jacket",
       "oPrice": 199,
@@ -31,6 +33,7 @@
       ]
     },
     {
+      "id": 2,
       "title": "Mens Downlight Stormdown Jacket",
       "category": "Mens Jacket",
       "oPrice": 249,
@@ -47,6 +50,7 @@
       ]
     },
     {
+      "id": 3,
       "title": "Womens Sun Valley Down Parka",
       "category": "Womens Jacket",
       "oPrice": 279,
@@ -63,6 +67,7 @@
       ]
     },
     {
+      "id": 4,
       "title": "Womens High Route Fleece Hoodie",
       "category": "Womens Fleece",
       "oPrice": 99,

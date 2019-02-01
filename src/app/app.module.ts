@@ -18,6 +18,7 @@ import {AngularFireAuthModule} from 'angularfire2/auth';
 
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -37,6 +38,7 @@ export const firebaseConfig = {
     SocialMediaComponent,
     ProductsComponent,
     WelcomeComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,7 @@
             <img class="color" src="{{color[1]}}">
         </div>
       </div>
-      <p class="title">{{product.title}}</p>
+      <p class="title" (click)="goToDetailPage(product)">{{product.title}}</p>
       <p><span class="oprice">{{product.oPrice | currency}}</span>  <span class="nprice">{{(product.oPrice*.80) | currency}}</span></p>
       <p class="sale">SALE!</p>
 

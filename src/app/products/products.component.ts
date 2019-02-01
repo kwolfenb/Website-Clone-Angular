@@ -18,7 +18,7 @@ export class ProductsComponent implements OnInit{
   productList;
 
   goToDetailPage(clickedProduct: Product) {
-    this.router.navigate(['products', 'clickedProduct.$key'])
+    this.router.navigate(['product', clickedProduct.id])
   }
 
   ngOnInit() {

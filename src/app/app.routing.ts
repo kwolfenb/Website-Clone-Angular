@@ -3,19 +3,20 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { ProductDetailsComponent} from './product-details/product-details.component';
 
 const appRoutes: Routes = [ 
   {
     path: '',
     component: WelcomeComponent
   },
-  // {
-  //   path: 'home',
-  //   component: WelcomeComponent
-  // },
   {
     path: 'products',
     component: ProductsComponent
+  },
+  {
+    path: 'product/:id',
+    component: ProductDetailsComponent
   }
 
 ];

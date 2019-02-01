@@ -18,5 +18,9 @@ export class ProductService {
     return this.products;
   }
   
+  getProductById(productId: number) {
+    return this.database.object('products/' + productId);
+  }
+
 
 }
