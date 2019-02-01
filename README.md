@@ -31,6 +31,10 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 * _Program uses Angular pipe filters to change numbers from Firebase into prices on product page._
 * _Program is in professional, portfolio-ready state._
 
+### Incomplete Build 
+* _Tried to loop through color options for each product on the product-details page but was not able to do so. Problem with writing the async ngFor loop._
+
+
 ## Setup/Installation Requirements
 * _Clone Repository from Github._
 * _Download all packages by typing "npm install" in the terminal._

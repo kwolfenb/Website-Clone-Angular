@@ -1,0 +1,26 @@
+img.mainImg {
+  margin-left: 5%;
+  height: 450px;
+  width: auto;
+}
+
+.oprice {
+  text-decoration: line-through;
+  margin-right: 20px;
+}
+
+.nprice {
+  color: red;
+}
+
+img.colorImg {
+  border-style: ridge;
+  border-width: 2px;
+  height: 24px;
+  width: auto;
+}
+
+img.colorImg:hover {
+  border-style: double;
+  border-width: 3px;
+}

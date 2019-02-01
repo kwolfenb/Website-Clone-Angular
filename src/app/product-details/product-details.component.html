@@ -1,12 +1,27 @@
-<p (click)="writeName()">
-  product-details works!
-</p>
-<h2>This product has id number: {{productId}}</h2>
-<h3>
+<!-- (productToDisplay | async)?. -->
+<div class="row">
+  <div class="col-md">
+    <img class="mainImg" src="{{(productToDisplay | async)?.image[0]}}">
+  </div>
+  <div class="col-md">
+    <h3>{{(productToDisplay | async)?.title}}</h3>
+    <h3><span class="oprice">
+        {{(productToDisplay | async)?.oPrice | currency}}
+      </span>
+      <span class="nprice">
+        {{(productToDisplay | async)?.oPrice*.80 | currency}}
+      </span>
+    </h3>
+    <div class="grid-container">
+      <div class="grid-item">
+        <p><b>Color: </b>{{(productToDisplay | async)?.colors[0][0]}}</p>
+      </div>
+      <div class="grid-item">
+        <img class="colorImg" src="{{(productToDisplay | async)?.colors[0][1]}}">
+        <img class="colorImg" src="{{(productToDisplay | async)?.colors[1][1]}}">
+        <img class="colorImg" src="{{(productToDisplay | async)?.colors[2][1]}}">
+      </div>
+    </div>
 
-  {{(productToDisplay | async)?.title}}
-</h3>
-<h4>
-
-  {{(productToDisplay | async)?.description}}
-</h4>
+  </div>
+</div>
