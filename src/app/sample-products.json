@@ -1,16 +1,84 @@
-{ "products": [{
-  "title": "Mens Mountain Town Jacket",
-  "category": "Mens Jacket",
-  "oPrice": "$149.00",
-  "description": "With its seam-sealed construction and waterproof/breathable WEATHEREDGE® technology, this nylon rain jacket is the civilized response to rude and unruly weather. Fully adjustable hood and cuffs let you dial in the fit, and five pockets provide ample storage space for essentials.",
-  "colors": ["Carbon", "Hunter"],
-  "image": ["https://eddiebauer.scene7.com/is/image/EddieBauer/D0010194_485C1?$xlargeV2$", "https://eddiebauer.scene7.com/is/image/EddieBauer/D0010194_642C1?$xlargeV2$"]
-  }, {
-    "title": "Mens Lone Peak 3-In-1 Jacket",
-    "category": "Mens Jacket",
-    "oPrice": "$199.00",
-    "description": "Waterproof protection, plus the ability to adapt to a wide range of weather conditions makes this 3-in-1 jacket highly versatile across the seasons. Fully seam-sealed construction of the polyester shell ensures maximum weather resistance. A zip-in polyester fleece liner adds substantial warmth in colder conditions, and the shell and liner can be worn together or alone, giving you complete flexibility.",
-    "colors": ["Avocado", "True Blue", "Black"],
-    "image": ["https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_663C1?$xlargeV2$", "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_100C1?$xlargeV2$", "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_855C1?$xlargeV2$"]
-}]
+{
+  "mens": [
+    {
+      "title": "Mens Mountain Town Jacket",
+      "category": "Mens Jacket",
+      "oPrice": "$149.00",
+      "description": "With its seam-sealed construction and waterproof/breathable WEATHEREDGE® technology, this nylon rain jacket is the civilized response to rude and unruly weather. Fully adjustable hood and cuffs let you dial in the fit, and five pockets provide ample storage space for essentials.",
+      "colors": [
+        "Carbon",
+        "Hunter"
+      ],
+      "image": [
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0010194_485C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0010194_642C1?$xlargeV2$"
+      ]
+    },
+    {
+      "title": "Mens Lone Peak 3-In-1 Jacket",
+      "category": "Mens Jacket",
+      "oPrice": "$199.00",
+      "description": "Waterproof protection, plus the ability to adapt to a wide range of weather conditions makes this 3-in-1 jacket highly versatile across the seasons. Fully seam-sealed construction of the polyester shell ensures maximum weather resistance. A zip-in polyester fleece liner adds substantial warmth in colder conditions, and the shell and liner can be worn together or alone, giving you complete flexibility.",
+      "colors": [
+        "Avocado",
+        "True Blue",
+        "Black"
+      ],
+      "image": [
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_663C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_100C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_855C1?$xlargeV2$"
+      ]
+    },
+    {
+      "title": "Mens Downlight Stormdown Jacket",
+      "category": "Mens Jacket",
+      "oPrice": "$249.00",
+      "description": "Our premium alpine down jacket, guide-built for climbing, mountaineering, and all cold-weather activities. Durable polyester shell sheds moisture. High-loft, moisture-resistant, 800 fill StormDown® insulation for ultralight, ultrawarm, ultra-compressible comfort. ",
+      "colors": [
+        "Storm",
+        "Pimento",
+        "Black"
+      ],
+      "image": [
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0883732_182C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0883732_175C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0883732_100C1?$xlargeV2$"
+      ]
+    }
+  ],
+  "womens": [
+    {
+      "title": "Womens Sun Valley Down Parka",
+      "category": "Womens Jacket",
+      "oPrice": "$279.00",
+      "description": "Besides warmth, our parka provides extra weather protection with exclusive StormRepel® durable water-repellent (DWR) finish. Water beads on the nylon/polyester/cotton shell rather than soaking into the fabric. 650 fill Premium Down for exceptional warmth without weight. Metallic cross dyeing process gives the fabric a subtle, iridescent sheen. Two-way front zipper adjusts easily when you're active or sitting.",
+      "colors": [
+        "DK Loden",
+        "Navy",
+        "Cinder"
+      ],
+      "image": [
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0068723_537C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0068723_400C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0068723_938C1?$xlargeV2$"
+      ]
+    },
+    {
+      "title": "Womens High Route Fleece Hoodie",
+      "category": "Womens Fleece",
+      "oPrice": "$99.00",
+      "description": "FreeHeat polyester fleece with a flat face stretch exterior combined with a soft, brushed interior delivers durability, comfort, and warmth. Use as an outer layer in mild conditions or under a shell when it's cold and wet. Designed for all-season performance while climbing, skiing, or backpacking.",
+      "colors": [
+        "Carbon",
+        "Boysenberry",
+        "Creek"
+      ],
+      "image": [
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0893701_485C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0893701_333C1?$xlargeV2$",
+        "https://eddiebauer.scene7.com/is/image/EddieBauer/D0893701_209C1?$xlargeV2$"
+      ]
+    }
+  ]
 }
