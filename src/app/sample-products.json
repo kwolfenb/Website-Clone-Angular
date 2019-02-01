@@ -1,0 +1,16 @@
+{ "products": [{
+  "title": "Mens Mountain Town Jacket",
+  "category": "Mens Jacket",
+  "oPrice": "$149.00",
+  "description": "With its seam-sealed construction and waterproof/breathable WEATHEREDGE® technology, this nylon rain jacket is the civilized response to rude and unruly weather. Fully adjustable hood and cuffs let you dial in the fit, and five pockets provide ample storage space for essentials.",
+  "colors": ["Carbon", "Hunter"],
+  "image": ["https://eddiebauer.scene7.com/is/image/EddieBauer/D0010194_485C1?$xlargeV2$", "https://eddiebauer.scene7.com/is/image/EddieBauer/D0010194_642C1?$xlargeV2$"]
+  }, {
+    "title": "Mens Lone Peak 3-In-1 Jacket",
+    "category": "Mens Jacket",
+    "oPrice": "$199.00",
+    "description": "Waterproof protection, plus the ability to adapt to a wide range of weather conditions makes this 3-in-1 jacket highly versatile across the seasons. Fully seam-sealed construction of the polyester shell ensures maximum weather resistance. A zip-in polyester fleece liner adds substantial warmth in colder conditions, and the shell and liner can be worn together or alone, giving you complete flexibility.",
+    "colors": ["Avocado", "True Blue", "Black"],
+    "image": ["https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_663C1?$xlargeV2$", "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_100C1?$xlargeV2$", "https://eddiebauer.scene7.com/is/image/EddieBauer/D0880129_855C1?$xlargeV2$"]
+}]
+}
