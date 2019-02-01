@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
-import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
-import {FirebaseListObservable } from 'angularfire2/database-deprecated';
+import { Product } from '../product.model';
+import { Router } from '@angular/router';
+import { AngularFireDatabase, FirebaseListObservable  } from 'angularfire2/database';
 
 
 @Component({
@@ -11,16 +12,21 @@ import {FirebaseListObservable } from 'angularfire2/database-deprecated';
 })
 
 export class ProductsComponent implements OnInit{
-  constructor(private productService: ProductService) {}
+  constructor(private productService: ProductService, private router: Router) {}
+  
+  currentRoute: string = this.router.url;
 
-  productList: AngularFireList<any[]>;
+  productList;
 
-  getProducts() {
-    this.productList = this.productService.getProducts();
+
+
+  goToDetailPage(clickedProduct: Product) {
+    this.router.navigate(['products', 'clickedProduct.$key'])
   }
 
-  ngOnInit() {
 
+  ngOnInit() {
+    this.productList = this.productService.getProducts();
   }
 
 }
