@@ -1,0 +1,65 @@
+h3 {
+  margin-top: 5%;
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: auto;
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.oprice {
+  text-decoration: line-through;
+}
+.nprice {
+  color: red;
+}
+.sale {
+  color: red;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.grid-container {
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 70%;
+}
+.grid-item {
+  width: 80%;
+  border: solid #bbbbbb;
+  border-radius: 2px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid-container-colors{
+  border: none;
+  width: 50%;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item-colors {
+  border: none;
+  width: 30%;
+  height: 20px;
+}
+
+
+img.color {
+  border-style: ridge;
+  border-width: 2px;
+  height: 24px;
+  width: auto;
+}
+
+img.color:hover {
+  border-style: double;
+  border-width: 3px;
+}

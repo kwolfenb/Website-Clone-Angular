@@ -4,7 +4,6 @@ import { Product } from '../product.model';
 import { Router } from '@angular/router';
 import { AngularFireDatabase, FirebaseListObservable  } from 'angularfire2/database';
 
-
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -18,15 +17,16 @@ export class ProductsComponent implements OnInit{
 
   productList;
 
-
-
   goToDetailPage(clickedProduct: Product) {
     this.router.navigate(['products', 'clickedProduct.$key'])
   }
 
-
   ngOnInit() {
     this.productList = this.productService.getProducts();
+  }
+
+  printList() {
+    console.log(this.productList);
   }
 
 }

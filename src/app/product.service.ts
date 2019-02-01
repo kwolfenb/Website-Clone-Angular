@@ -9,14 +9,14 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 export class ProductService {
 
   products: FirebaseListObservable<any[]>;
-
+  
   constructor(private database: AngularFireDatabase) { 
     this.products = database.list('products');
-
   }
-
+  
   getProducts() {
     return this.products;
   }
+  
 
 }

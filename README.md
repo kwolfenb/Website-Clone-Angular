@@ -28,6 +28,7 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 * _Application uses Angular routing._
 * _Each product will contain pictures, descriptions, original price and sales price, and different color options._
 * _Web application is deployed and fully functional on Firebase._
+* _Program uses Angular pipe filters to change numbers from Firebase into prices on product page._
 * _Program is in professional, portfolio-ready state._
 
 ## Setup/Installation Requirements
