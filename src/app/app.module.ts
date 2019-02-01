@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { ProductService } from './product.service';
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,6 +13,9 @@ import { SocialMediaComponent } from './social-media/social-media.component';
 import { ProductsComponent } from './products/products.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
+import {AngularFireAuthModule} from 'angularfire2/auth';
+
+
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 export const firebaseConfig = {
@@ -29,7 +34,7 @@ export const firebaseConfig = {
     SliderComponent,
     WinterDealsComponent,
     SocialMediaComponent,
-    ProductsComponent
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,8 +42,10 @@ export const firebaseConfig = {
     AngularFireDatabaseModule,
     FormsModule,
     HttpModule,
+    AngularFireAuthModule,
+    routing
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

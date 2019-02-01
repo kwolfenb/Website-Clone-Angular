@@ -1,5 +1,5 @@
 {
-  "mens": [
+  "products": [
     {
       "title": "Mens Mountain Town Jacket",
       "category": "Mens Jacket",
@@ -45,9 +45,7 @@
         "https://eddiebauer.scene7.com/is/image/EddieBauer/D0883732_175C1?$xlargeV2$",
         "https://eddiebauer.scene7.com/is/image/EddieBauer/D0883732_100C1?$xlargeV2$"
       ]
-    }
-  ],
-  "womens": [
+    },
     {
       "title": "Womens Sun Valley Down Parka",
       "category": "Womens Jacket",

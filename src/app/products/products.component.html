@@ -1,3 +1,7 @@
-<p>
-  products works!
-</p>
+<h2>Marketplace</h2>
+
+<div *ngFor="let product of productList | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{product.title}}</em> by {{product.description}}</h3>
+  </div>
+</div>

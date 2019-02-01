@@ -24,7 +24,8 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 ### Build Specs Part 2
 * _Product page contains many products in a few categories which will be stored in a JSON file in a Firebase database._
 * _Products are accessed from the dropdown menu buttons on the main home page. Currently the only working options are "Mens Jackets" and "Womens Jackets"._
-* _Products will be accessed via Angular service._
+* _Application uses Angular services. Products will be accessed via Angular service._
+* _Application uses Angular routing._
 * _Each product will contain pictures, descriptions, original price and sales price, and different color options._
 * _Web application is deployed and fully functional on Firebase._
 * _Program is in professional, portfolio-ready state._
