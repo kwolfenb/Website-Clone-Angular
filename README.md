@@ -30,12 +30,13 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 * _Web application is deployed and fully functional on Firebase._
 * _Program uses Angular pipe filters to change numbers from Firebase into prices on product page._
 * _Program is in professional, portfolio-ready state._
+* _Application displays message when an empty product category is chosen such as 'HOME' or 'SHOES'. This uses the Angular subscribe functionality._
 
 ### Incomplete Build 
 * _Tried to loop through color options for each product on the product-details page but was not able to do so. Problem with writing the async ngFor loop. Instead there are 3 fixed choices per product._
 * _Tried to use click events to change colors on main product list page. Because of the ngFor loops ALL the pictures change color on click._
 * _Wanted to improve the dropdown menus because they are kind of annoying currently._
-* _Wanted to add more categories of products as well as the ability to search._
+* _Add more categories of products as well as the ability to search._
 
 
 ## Setup/Installation Requirements
