@@ -37,6 +37,8 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 
 
 ## Setup/Installation Requirements
+
+* _View application on Firebase at [https://angular-independent-project.firebaseapp.com/]._
 * _Clone Repository from Github._
 * _Download all packages by typing "npm install" in the terminal._
 * _Run 'ng serve -o' for a dev server. The app will automatically reload if you change any of the source files._
