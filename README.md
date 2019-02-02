@@ -33,11 +33,12 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 
 ### Incomplete Build 
 * _Tried to loop through color options for each product on the product-details page but was not able to do so. Problem with writing the async ngFor loop. Instead there are 3 fixed choices per product._
-* _Tried to use click events to change colors on main product list page. Because of the ngFor loops all the pictures change color on click._
+* _Tried to use click events to change colors on main product list page. Because of the ngFor loops ALL the pictures change color on click._
+* _Wanted to improve the dropdown menus because they are kind of annoying currently._
+* _Wanted to add more categories of products as well as the ability to search._
 
 
 ## Setup/Installation Requirements
-
 * _View application on Firebase at [https://angular-independent-project.firebaseapp.com/]._
 * _Clone Repository from Github._
 * _Download all packages by typing "npm install" in the terminal._
