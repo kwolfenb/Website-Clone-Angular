@@ -32,7 +32,8 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 * _Program is in professional, portfolio-ready state._
 
 ### Incomplete Build 
-* _Tried to loop through color options for each product on the product-details page but was not able to do so. Problem with writing the async ngFor loop._
+* _Tried to loop through color options for each product on the product-details page but was not able to do so. Problem with writing the async ngFor loop. Instead there are 3 fixed choices per product._
+* _Tried to use click events to change colors on main product list page. Because of the ngFor loops all the pictures change color on click._
 
 
 ## Setup/Installation Requirements

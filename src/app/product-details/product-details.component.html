@@ -1,7 +1,7 @@
 <!-- (productToDisplay | async)?. -->
 <div class="row">
   <div class="col-md">
-    <img class="mainImg" src="{{(productToDisplay | async)?.image[0]}}">
+    <img class="mainImg" src="{{(productToDisplay | async)?.image[colorToDisplay]}}">
   </div>
   <div class="col-md">
     <h3>{{(productToDisplay | async)?.title}}</h3>
@@ -17,11 +17,19 @@
         <p><b>Color: </b>{{(productToDisplay | async)?.colors[0][0]}}</p>
       </div>
       <div class="grid-item">
-        <img class="colorImg" src="{{(productToDisplay | async)?.colors[0][1]}}">
-        <img class="colorImg" src="{{(productToDisplay | async)?.colors[1][1]}}">
-        <img class="colorImg" src="{{(productToDisplay | async)?.colors[2][1]}}">
+        <img class="colorImg" src="{{(productToDisplay | async)?.colors[0][1]}}" (click)="clickColor(0)">
+        <img class="colorImg" src="{{(productToDisplay | async)?.colors[1][1]}}" (click)="clickColor(1)">
+        <img class="colorImg" src="{{(productToDisplay | async)?.colors[2][1]}}" (click)="clickColor(2)">
       </div>
     </div>
 
   </div>
+</div>
+<div class="description">
+  <h6>
+    PRODUCT DETAILS: 
+  </h6>
+  <P>
+    {{(productToDisplay | async)?.description}}
+  </P>
 </div>

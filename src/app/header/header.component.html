@@ -2,7 +2,7 @@
   <div class="menu">
     <div class="row" id="menuRowOne">
       <div class="col-3">
-        <a routerLink="products">
+        <a routerLink="">
           <img src="../assets/img/logo.png" alt="logo" id="logo">
         </a>
       </div>
@@ -21,10 +21,10 @@
       <tr>
         <div class="dropdown">
           <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)">{{menuButton[0]}}
-            <div *ngIf="mouseover==menuButton" class="dropdownContent">
+            <div *ngIf="mouseover==menuButton" class="dropdownContent" (click)="goToProductPage(menuButton[0])">
               <p>Shop by Category</p>
               <ul *ngFor="let product of menuButton[1]">
-                <li><a href="#">{{product}}</a></li>
+                <li><a>{{product}}</a></li>
               </ul>
             </div>
           </td>

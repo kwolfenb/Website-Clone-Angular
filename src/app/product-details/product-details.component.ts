@@ -14,6 +14,7 @@ export class ProductDetailsComponent implements OnInit {
 
   productId: number = null;
   productToDisplay;
+  colorToDisplay: Number = 0;
 
   constructor(private productService: ProductService, 
     private route: ActivatedRoute, 
@@ -27,7 +28,8 @@ export class ProductDetailsComponent implements OnInit {
     this.productToDisplay = this.productService.getProductById(this.productId); 
   }
 
-  writeName() {
-    console.log(this.productToDisplay.title)
+  clickColor(color) {
+    this.productService.changeColor(color);
+    this.colorToDisplay = this.productService.colorOption;
   }
 }

@@ -11,7 +11,7 @@ const appRoutes: Routes = [
     component: WelcomeComponent
   },
   {
-    path: 'products',
+    path: ':category',
     component: ProductsComponent
   },
   {

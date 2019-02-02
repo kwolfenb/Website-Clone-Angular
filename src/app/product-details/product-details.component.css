@@ -1,7 +1,12 @@
+.row {
+  margin-top: 3%;
+}
+
 img.mainImg {
   margin-left: 5%;
   height: 450px;
   width: auto;
+
 }
 
 .oprice {
@@ -23,4 +28,10 @@ img.colorImg {
 img.colorImg:hover {
   border-style: double;
   border-width: 3px;
+}
+
+.description {
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 75%;
 }
