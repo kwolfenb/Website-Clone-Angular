@@ -1,6 +1,5 @@
-<H3 (click)="printList()">{{category}} OUTERWEAR</H3>
+<H3 (click)="printList()">{{category}}</H3>
 <hr>
-
 <div class="grid-container">
   <div class="grid-item" *ngFor="let product of productList | async">
       <img src="{{product.image[colorChoice]}}">

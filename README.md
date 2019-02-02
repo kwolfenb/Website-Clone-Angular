@@ -22,11 +22,11 @@ _Clone of the Eddie Bauer website using TypeScript and Angular._
 * _The header and slider components both contain "click" EventEmitters which will trigger the dropdown menu to close. Because multiple comonents use this functionality, the property (masterMouseOver) and function (menuClose()) both live at the app.component level._
 
 ### Build Specs Part 2
-* _Product page contains many products in a few categories which will be stored in a JSON file in a Firebase database._
-* _Products are accessed from the dropdown menu buttons on the main home page. Currently the only working options are "Mens Jackets" and "Womens Jackets"._
+* _Product page contains several products in a few categories which will be stored in a JSON file in a Firebase database._
+* _Products are accessed from the dropdown menu buttons on the main home page. Currently the only working options are "Men", "Women" and "Outerwear"._
 * _Application uses Angular services. Products will be accessed via Angular service._
 * _Application uses Angular routing._
-* _Each product will contain pictures, descriptions, original price and sales price, and different color options._
+* _Users can click specific products to go to product detail page. Each product will contain pictures, descriptions, original price and sales price, and different color options._
 * _Web application is deployed and fully functional on Firebase._
 * _Program uses Angular pipe filters to change numbers from Firebase into prices on product page._
 * _Program is in professional, portfolio-ready state._
