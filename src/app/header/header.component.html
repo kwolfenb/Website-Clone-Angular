@@ -20,7 +20,7 @@
     <table id="tableMenuButtons">
       <tr>
         <div class="dropdown">
-          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)">{{menuButton[0]}}
+          <td *ngFor="let menuButton of menuArr" (mouseover)="onMouseOver(menuButton)"><a routerLink="{{menuButton[0]}}">{{menuButton[0]}}</a>
             <div *ngIf="mouseover==menuButton" class="dropdownContent" (click)="goToProductPage(menuButton[0])">
               <p>Shop by Category</p>
               <ul *ngFor="let product of menuButton[1]">

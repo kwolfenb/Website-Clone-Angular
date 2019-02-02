@@ -14,7 +14,7 @@
     </h3>
     <div class="grid-container">
       <div class="grid-item">
-        <p><b>Color: </b>{{(productToDisplay | async)?.colors[0][0]}}</p>
+        <p><b>Color: </b>{{(productToDisplay | async)?.colors[colorToDisplay][0]}}</p>
       </div>
       <div class="grid-item">
         <img class="colorImg" src="{{(productToDisplay | async)?.colors[0][1]}}" (click)="clickColor(0)">

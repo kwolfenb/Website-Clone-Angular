@@ -2,7 +2,7 @@
 <hr>
 <div class="grid-container">
   <div class="grid-item" *ngFor="let product of productList | async">
-      <img src="{{product.image[colorChoice]}}">
+      <img (click)="goToDetailPage(product)" src="{{product.image[colorChoice]}}">
       <br>
       <div class="grid-container grid-container-colors">
         <div class="grid-item grid-item-colors" *ngFor="let color of product.colors">

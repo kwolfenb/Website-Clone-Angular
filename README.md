@@ -1,6 +1,6 @@
 # Eddie Bauer Clone
 
-#### _Independent Project for Epicodus - 1/25/2019_
+#### _Independent Project for Epicodus - 2/1/2019_
 
 #### By _**Kenny Wolfenberger**_
 
