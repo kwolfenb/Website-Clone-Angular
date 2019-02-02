@@ -20,6 +20,7 @@ export class ProductsComponent implements OnInit{
   
   currentRoute: string = this.router.url;
   productList;
+  noProducts: boolean = false;
   colorChoice: number = 0;
   category: string;
 
@@ -31,12 +32,14 @@ export class ProductsComponent implements OnInit{
     this.route.params.forEach((urlParameters) => {
       this.category = urlParameters['category'];
     });
-    this.productList = this.productService.getProducts(this.category);
+    this.productService.getProducts(this.category).subscribe(dataLastEmittedFromObserver => {
+      this.productList = dataLastEmittedFromObserver;
+      if(this.productList.length == 0) {
+        this.noProducts=true;
+      } 
+    })
   }
 
-  printList() {
-    console.log(this.productList);
-  }
 
   clickColor(color) {
     this.productService.changeColor(color);

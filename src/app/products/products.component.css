@@ -63,3 +63,10 @@ img.color:hover {
   border-style: double;
   border-width: 3px;
 }
+
+.nothingToDisplay {
+  position: absolute;
+  width: 66%;
+  margin: auto;
+  border: solid black;
+}

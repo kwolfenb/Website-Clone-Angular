@@ -1,17 +1,20 @@
 <H3 (click)="printList()">{{category}}</H3>
 <hr>
 <div class="grid-container">
-  <div class="grid-item" *ngFor="let product of productList | async">
-      <img (click)="goToDetailPage(product)" src="{{product.image[colorChoice]}}">
-      <br>
-      <div class="grid-container grid-container-colors">
-        <div class="grid-item grid-item-colors" *ngFor="let color of product.colors">
-          <img class="color" src="{{color[1]}}" (click)="clickColor(product.colors.indexOf(color))">
-        </div>
+  <div class="nothingToDisplay" *ngIf="noProducts">
+    <h3>We are currently out of stock on all {{category}} products. Please check back later.</h3>
+  </div>
+  <div class="grid-item" *ngFor="let product of productList">
+    <img (click)="goToDetailPage(product)" src="{{product.image[colorChoice]}}">
+    <br>
+    <div class="grid-container grid-container-colors">
+      <div class="grid-item grid-item-colors" *ngFor="let color of product.colors">
+        <img class="color" src="{{color[1]}}" (click)="clickColor(product.colors.indexOf(color))">
       </div>
-      <p class="title" (click)="goToDetailPage(product)">{{product.title}}</p>
-      <p><span class="oprice">{{product.oPrice | currency}}</span> <span class="nprice">{{(product.oPrice*.80) |
-          currency}}</span></p>
-      <p class="sale">SALE!</p>
+    </div>
+    <p class="title" (click)="goToDetailPage(product)">{{product.title}}</p>
+    <p><span class="oprice">{{product.oPrice | currency}}</span> <span class="nprice">{{(product.oPrice*.80) |
+        currency}}</span></p>
+    <p class="sale">SALE!</p>
   </div>
 </div>
